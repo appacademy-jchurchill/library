@@ -79,6 +79,11 @@ namespace Library.Data
             }
         }
 
+        public static SqlParameter GetNullableStringSqlParameter(string parameterName, string value)
+        {
+            return new SqlParameter(parameterName, string.IsNullOrEmpty(value) ? (object)DBNull.Value : value);
+        }
+
         private static string GetConnectionString()
         {
             return ConfigurationManager.ConnectionStrings[ConnectionStringName].ConnectionString;

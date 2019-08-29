@@ -46,7 +46,7 @@ namespace Library
             ",
                 new SqlParameter("@Title", title),
                 new SqlParameter("@AuthorId", authorId),
-                new SqlParameter("@ISBN", isbn));
+                DatabaseHelper.GetNullableStringSqlParameter("@ISBN", isbn));
 
             Response.Redirect("~/ItemsList.aspx");
         }
