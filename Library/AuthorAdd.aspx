@@ -19,6 +19,7 @@
 
     <div>
         <asp:button id="Save" runat="server" text="Save" onclick="Save_Click" />
+        <asp:button id="Cancel" runat="server" text="Cancel" onclick="Cancel_Click" />
     </div>
 
 </asp:Content>
