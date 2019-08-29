@@ -10,43 +10,61 @@
 namespace Library {
     
     
-    public partial class AuthorAdd {
+    public partial class ItemEdit {
         
         /// <summary>
-        /// FirstNameLabel control.
+        /// ItemTitleLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label FirstNameLabel;
+        protected global::System.Web.UI.WebControls.Label ItemTitleLabel;
         
         /// <summary>
-        /// FirstName control.
+        /// ItemTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FirstName;
+        protected global::System.Web.UI.WebControls.TextBox ItemTitle;
         
         /// <summary>
-        /// LastNameLabel control.
+        /// AuthorLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LastNameLabel;
+        protected global::System.Web.UI.WebControls.Label AuthorLabel;
         
         /// <summary>
-        /// LastName control.
+        /// Author control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox LastName;
+        protected global::System.Web.UI.WebControls.DropDownList Author;
+        
+        /// <summary>
+        /// ISBNLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ISBNLabel;
+        
+        /// <summary>
+        /// ISBN control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ISBN;
         
         /// <summary>
         /// Save control.

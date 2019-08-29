@@ -13,6 +13,12 @@
     <form id="form1" runat="server">
     <div>
         <h1>Library</h1>
+
+        <ul>
+            <li><asp:hyperlink runat="server" navigateurl="~/AuthorsList.aspx">Authors</asp:hyperlink></li>
+            <li><asp:hyperlink runat="server" navigateurl="~/ItemsList.aspx">Books</asp:hyperlink></li>
+        </ul>
+
         <asp:ContentPlaceHolder ID="main" runat="server">
         
         </asp:ContentPlaceHolder>

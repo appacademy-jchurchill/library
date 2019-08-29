@@ -29,5 +29,10 @@ namespace Library
 
             Response.Redirect("~/AuthorsList.aspx");
         }
+
+        protected void Cancel_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/AuthorsList.aspx");
+        }
     }
 }
