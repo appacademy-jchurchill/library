@@ -29,6 +29,18 @@
                         <asp:hyperlink runat="server" cssclass="nav-link" navigateurl="~/ItemsList.aspx">Books</asp:hyperlink></li>
                 </ul>
             </div>
+            <div>
+                <asp:loginview runat="server">
+                    <anonymoustemplate>
+                        <span>&nbsp;</span>
+                    </anonymoustemplate>
+                    <loggedintemplate>
+                        <span>Welcome <%= CurrentUser.FullName %>!</span>
+                        <span class="pr-3">Library Card Number: <%= CurrentUser.LibraryCardNumber %></span>
+                        <asp:button id="Logout" runat="server" text="Logout" cssclass="btn btn-secondary" onclick="Logout_Click" /> 
+                    </loggedintemplate>
+                </asp:loginview>
+            </div>
         </nav>
 
         <asp:ContentPlaceHolder ID="main" runat="server">

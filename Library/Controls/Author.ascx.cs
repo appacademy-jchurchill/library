@@ -10,7 +10,7 @@ using System.Web.UI.WebControls;
 
 namespace Library.Controls
 {
-    public partial class Author : System.Web.UI.UserControl
+    public partial class Author : BaseUserControl
     {
         int authorId = 0;
 

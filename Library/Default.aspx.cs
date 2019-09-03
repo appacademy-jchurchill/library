@@ -1,7 +1,6 @@
-﻿using Library.Data;
+﻿using Library.Models;
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -9,7 +8,10 @@ using System.Web.UI.WebControls;
 
 namespace Library
 {
-    public partial class AuthorAdd : BasePage
+    public partial class Default : BasePage
     {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+        }
     }
 }
