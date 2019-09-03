@@ -10,7 +10,7 @@ using System.Web.UI.WebControls;
 
 namespace Library
 {
-    public partial class ItemAdd : System.Web.UI.Page
+    public partial class ItemAdd : BasePage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

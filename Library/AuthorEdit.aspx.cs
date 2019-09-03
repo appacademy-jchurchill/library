@@ -10,7 +10,7 @@ using System.Web.UI.WebControls;
 
 namespace Library
 {
-    public partial class AuthorEdit : System.Web.UI.Page
+    public partial class AuthorEdit : BasePage
     {
     }
 }

@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace Library
 {
-    public partial class AuthorAdd : System.Web.UI.Page
+    public partial class AuthorAdd : BasePage
     {
     }
 }

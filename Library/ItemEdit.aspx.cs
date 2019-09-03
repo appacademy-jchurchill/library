@@ -10,7 +10,7 @@ using System.Web.UI.WebControls;
 
 namespace Library
 {
-    public partial class ItemEdit : System.Web.UI.Page
+    public partial class ItemEdit : BasePage
     {
         int itemId = 0;
 
