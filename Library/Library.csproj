@@ -69,6 +69,7 @@
     <Content Include="AuthorAdd.aspx" />
     <Content Include="AuthorEdit.aspx" />
     <Content Include="AuthorsList.aspx" />
+    <Content Include="Controls\Author.ascx" />
     <Content Include="ItemAdd.aspx" />
     <Content Include="ItemEdit.aspx" />
     <Content Include="ItemsList.aspx" />
@@ -83,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Stylesheets\Darkly.css" />
     <Content Include="Stylesheets\Main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -108,6 +110,14 @@
     <Compile Include="AuthorsList.aspx.designer.cs">
       <DependentUpon>AuthorsList.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Controls\Author.ascx.cs">
+      <DependentUpon>Author.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Author.ascx.designer.cs">
+      <DependentUpon>Author.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Mode.cs" />
     <Compile Include="Data\DatabaseHelper.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
