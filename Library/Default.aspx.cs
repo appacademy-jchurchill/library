@@ -12,8 +12,6 @@ namespace Library
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Librarian currentUser = CurrentUser;
-
         }
     }
 }
